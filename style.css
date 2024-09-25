@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace
+}
+
+.container {
+    display: flex;
+}
+
+body {
+    display: flex;
+    /* justify-content: center; */
+    background-color: #f4f4f4;
+}
+
+.left-section {
+    border-radius: 2%;
+    margin: 10px;
+    background-color: rgb(41, 52, 86);
+    color: white;
+}
+
+.image{
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: solid 8px rgb(22, 102, 129);
+    margin-left: 80px;
+}
+
+.skills {
+    text-align: center;
+    margin: 20px;
+    /* padding-top: 2px; */
+
+}
+
+.my-skills h2{
+    border-radius: 10px;
+    background-color: rgb(182, 176, 176);
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    
+}
+
+.education h1{
+    text-align: center;
+    margin: 4px;
+    padding-top: 20px;
+}
+.education h3{
+    text-align: center;
+    margin: 20px; 
+    line-height: 40px;
+    /* padding: 20px; */
+}
+
+.languages h1{
+    text-align: center;
+    margin: 4px;
+    padding-top: 20px;
+}
+.languages p{
+    /* text-align: center; */
+    margin: 20px; 
+    line-height: 20px;
+    padding-left: 20px;
+
+}
+
+.interests h1{
+    text-align: center;
+    margin: 4px;
+    padding-top: 20px;
+}
+.interests p{
+    /* text-align: center; */
+    margin: 20px; 
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+
+
+.rightsection {
+    width: 65%;
+    padding: 20px;
+}
+
+.userName h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.desination {
+    font-size: 24px;
+    color: #154c79;
+    margin-bottom: 25px;
+}
+
+.contactSection {
+    margin-top: 20px;
+    font-size: 20px;
+
+}
+
+.workExperience h1, .courses h1 {
+    margin-top: 40px;
+    color: #154c79;
+}
+
+.workExperience h4, .courses h4 {
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.workExperience ul, .courses ul {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.workExperience li, .courses p {
+    text-align: justify;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.location a, .email a {
+    margin-right: 20px;
+    color: #154c79;
+    text-decoration: none;
+    
+}
